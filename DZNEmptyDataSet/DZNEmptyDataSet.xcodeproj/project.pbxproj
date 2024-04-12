@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3AC13C2C04A330F6731CD271 /* Pods_DZNEmptyDataSetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5DC4B343BE997FFAA0048 /* Pods_DZNEmptyDataSetTests.framework */; };
+		E5641B562BC8C376006B94FC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E5641B542BC8C376006B94FC /* PrivacyInfo.xcprivacy */; };
 		F56CEC4B1E67430000E2FACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58A3E7F1E66B62F0086E0EF /* Assets.xcassets */; };
 		F58A3E3C1E66AEE90086E0EF /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A3E321E66AEE90086E0EF /* DZNEmptyDataSet.framework */; };
 		F58A3E411E66AEE90086E0EF /* ApplicationsSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A3E401E66AEE90086E0EF /* ApplicationsSnapshotTests.m */; };
@@ -72,6 +73,7 @@
 		78C5DC4B343BE997FFAA0048 /* Pods_DZNEmptyDataSetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZNEmptyDataSetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84189CEC4210484C1F24D3A8 /* Pods-DZNEmptyDataSetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZNEmptyDataSetTests/Pods-DZNEmptyDataSetTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC2B63699C936D9C9CDB1740 /* Pods-EmptyDataSetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataSetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataSetTests/Pods-EmptyDataSetTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5641B542BC8C376006B94FC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F58A3E321E66AEE90086E0EF /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A3E351E66AEE90086E0EF /* DZNEmptyDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZNEmptyDataSet.h; sourceTree = "<group>"; };
 		F58A3E361E66AEE90086E0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -181,6 +183,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E5641B552BC8C376006B94FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5641B542BC8C376006B94FC /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = ../../Source/Resources;
+			sourceTree = "<group>";
+		};
 		F58A3E281E66AEE90086E0EF = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +222,7 @@
 				F58A3E351E66AEE90086E0EF /* DZNEmptyDataSet.h */,
 				F58A3E4C1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h */,
 				F58A3E4D1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m */,
+				E5641B552BC8C376006B94FC /* Resources */,
 				F58A3E361E66AEE90086E0EF /* Info.plist */,
 			);
 			path = DZNEmptyDataSet;
@@ -482,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5641B562BC8C376006B94FC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
